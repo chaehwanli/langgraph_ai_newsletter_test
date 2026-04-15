@@ -184,7 +184,7 @@ def node_hn_filter_ai_only(state: State) -> State:
             "hn_ai_only_count": 0,
         }
 
-    id_to_is_ai = classify_ai_titles(rows, model_name="gpt-5-mini", chunk_size=60)
+    id_to_is_ai = classify_ai_titles(rows, model_name="gemini-3.1-pro-preview", chunk_size=60)
     filtered_sorted = filter_and_sort(rows, id_to_is_ai)
 
     if out_csv.exists():
@@ -227,7 +227,7 @@ def node_hn_select_top5(state: State) -> State:
             "hn_top5_count": 0,
         }
 
-    top5 = rank_top5_with_gpt(rows, model_name="gpt-5")
+    top5 = rank_top5_with_gpt(rows, model_name="gemini-3.1-pro-preview")
 
     ordered_rows: List[Dict] = []
     for r in top5:

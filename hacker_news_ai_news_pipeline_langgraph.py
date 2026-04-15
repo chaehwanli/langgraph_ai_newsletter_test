@@ -116,7 +116,7 @@ def node_filter_ai_only(state: State) -> State:
             "ai_only_count": 0,
         }
 
-    id_to_is_ai = classify_ai_titles(rows, model_name="gpt-5-mini", chunk_size=60)
+    id_to_is_ai = classify_ai_titles(rows, model_name="gemini-3.1-pro-preview", chunk_size=60)
     filtered_sorted = filter_and_sort(rows, id_to_is_ai)
 
     out_csv = input_path.parent / f"hacker_news_topstories_last_7_days_ai_only_{date_str}.csv"
@@ -164,8 +164,8 @@ def node_select_top5(state: State) -> State:
             "top5_title_date_pairs": [],
         }
 
-    # GPT-5로 상위 5개 선정 (모듈 내 정책 재사용)
-    top5 = rank_top5_with_gpt(rows, model_name="gpt-5")
+    # Gemini로 상위 5개 선정 (모듈 내 정책 재사용)
+    top5 = rank_top5_with_gpt(rows, model_name="gemini-3.1-pro-preview")
 
     # 열 순서 통일하여 저장
     ordered_rows: List[Dict] = []

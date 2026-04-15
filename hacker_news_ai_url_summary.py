@@ -13,7 +13,7 @@ from urllib.parse import urlparse, urlunparse
 
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 
 # LangSmith 설정
@@ -47,7 +47,7 @@ prompt = ChatPromptTemplate.from_messages(
         MessagesPlaceholder(variable_name="messages"),
     ]
 )
-llm = ChatOpenAI(model="gpt-5", temperature=0, timeout=60, max_retries=2)
+llm = ChatGoogleGenerativeAI(model="gemini-3.1-pro-preview", temperature=0, timeout=60, max_retries=2)
 generate = prompt | llm
 
 

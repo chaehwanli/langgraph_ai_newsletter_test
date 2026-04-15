@@ -8,7 +8,7 @@ import sys
 from langchain_core.tools import tool
 from langchain_core.messages import AIMessage, BaseMessage, HumanMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from textwrap import dedent
 from bs4 import BeautifulSoup
 import re
@@ -43,7 +43,7 @@ prompt = ChatPromptTemplate.from_messages(
         MessagesPlaceholder(variable_name="messages"),
     ]
 )
-llm = ChatOpenAI(model="gpt-5", temperature=0, timeout=60, max_retries=2)
+llm = ChatGoogleGenerativeAI(model="gemini-3.1-pro-preview", temperature=0, timeout=60, max_retries=2)
 generate = prompt | llm
 
 

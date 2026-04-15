@@ -6,7 +6,7 @@ from langgraph.graph import StateGraph, END
 from typing import TypedDict, Annotated, Any, Dict, List, Literal
 from pydantic import BaseModel
 from datetime import date
-from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 import json
 from typing import Optional
 import argparse
@@ -40,7 +40,7 @@ class State(TypedDict):
 
 def save_recent_cookbook_posts(state: State) -> State:
     # 1) LLM 준비
-    llm = ChatOpenAI(model="gpt-5-mini", temperature=0)
+    llm = ChatGoogleGenerativeAI(model="gemini-3.1-pro-preview", temperature=0)
     structured_llm = llm.with_structured_output(CookbookPostList)
 
     days = state.get("days") or 14

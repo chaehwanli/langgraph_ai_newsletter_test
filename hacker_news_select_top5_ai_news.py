@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Any, Tuple
 
-from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 from uuid import uuid4
 
@@ -212,13 +212,13 @@ def enrich_rows(rows: List[Dict[str, Any]]) -> None:
         r["score"] = coerce_int(r.get("score"), 0)
 
 
-def rank_top5_with_gpt(rows: List[Dict[str, Any]], model_name: str = "gpt-5") -> List[Dict[str, Any]]:
-    """후보 뉴스에서 GPT를 이용해 Top5를 선정하고 보강 로직으로 채운다."""
+def rank_top5_with_gpt(rows: List[Dict[str, Any]], model_name: str = "gemini-3.1-pro-preview") -> List[Dict[str, Any]]:
+    """후보 뉴스에서 Gemini를 이용해 Top5를 선정하고 보강 로직으로 채운다."""
     # 너무 많은 후보일 경우 토큰 보호를 위해 점수 상위 80개로 컷
     candidates = sorted(rows, key=lambda x: x.get("score") or 0, reverse=True)[:80]
     enrich_rows(candidates)
 
-    llm = ChatOpenAI(model=model_name, temperature=0.2)
+    llm = ChatGoogleGenerativeAI(model=model_name, temperature=0.2)
     messages = build_ranking_messages(candidates)
     resp = llm.invoke(messages)
     content = getattr(resp, "content", str(resp))
@@ -280,8 +280,8 @@ def main() -> None:
         print(f"빈 결과를 저장했습니다: {out_csv}")
         return
 
-    # GPT-5로 중요도 상위 5개 선정 (공식 출처 우대)
-    top5 = rank_top5_with_gpt(rows, model_name="gpt-5")
+    # Gemini로 중요도 상위 5개 선정 (공식 출처 우대)
+    top5 = rank_top5_with_gpt(rows, model_name="gemini-3.1-pro-preview")
 
     # 저장 및 출력
     out_csv = data_dir / f"hacker_news_topstories_last_7_days_ai_top5_{date_str}.csv"

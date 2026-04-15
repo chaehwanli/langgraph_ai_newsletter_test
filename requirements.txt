@@ -2,11 +2,11 @@ requests>=2.31.0
 beautifulsoup4>=4.12.2
 lxml>=4.9.3
 
-# LangChain / OpenAI
+# LangChain / Google Gemini
 langchain>=0.2.0
 langchain-core>=0.2.0
-langchain-openai>=0.2.0
-openai>=1.30.0
+langchain-google-genai>=2.0.0
+google-generativeai>=0.8.0
 langgraph>=0.2.0
 pydantic>=2.6.0
 

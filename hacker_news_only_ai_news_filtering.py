@@ -6,7 +6,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Any
 
-from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 from uuid import uuid4
 
@@ -97,12 +97,12 @@ def build_classifier_prompt(items: List[Dict[str, Any]]) -> list:
     return [("system", system_msg), ("human", user_msg)]
 
 
-def classify_ai_titles(rows: List[Dict[str, Any]], model_name: str = "gpt-5-mini", chunk_size: int = 60) -> Dict[str, bool]:
+def classify_ai_titles(rows: List[Dict[str, Any]], model_name: str = "gemini-3.1-pro-preview", chunk_size: int = 60) -> Dict[str, bool]:
     """
     제목 목록을 청크로 나눠 LLM에 보내 AI 여부를 분류합니다.
     결과로 id -> is_ai 불리언 매핑을 반환합니다.
     """
-    llm = ChatOpenAI(model=model_name, temperature=0)
+    llm = ChatGoogleGenerativeAI(model=model_name, temperature=0)
     id_to_is_ai: Dict[str, bool] = {}
 
     # 청크 분할
@@ -199,7 +199,7 @@ def main():
         print(f"빈 결과를 저장했습니다: {out_csv}")
         return
 
-    id_to_is_ai = classify_ai_titles(rows, model_name="gpt-5-mini", chunk_size=60)
+    id_to_is_ai = classify_ai_titles(rows, model_name="gemini-3.1-pro-preview", chunk_size=60)
     filtered_sorted = filter_and_sort(rows, id_to_is_ai)
     out_csv = data_dir / f"hacker_news_topstories_last_7_days_ai_only_{date_str}.csv"
     save_csv_rows(filtered_sorted, out_csv)
