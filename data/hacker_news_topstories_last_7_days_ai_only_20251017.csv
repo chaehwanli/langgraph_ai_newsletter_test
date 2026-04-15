@@ -1,0 +1,84 @@
+﻿id,title,url,time,score,by
+45569350,NanoChat – The best ChatGPT that $100 can buy,https://github.com/karpathy/nanochat,2025-10-13 15:22:47,1498,huseyinkeles
+45551504,Microsoft only lets you opt out of AI photo scanning 3x a year,https://hardware.slashdot.org/story/25/10/11/0238213/microsofts-onedrive-begins-testing-face-recognizing-ai-for-photos-for-some-preview-users,2025-10-11 18:36:51,838,dmitrygr
+45595403,Claude Haiku 4.5,https://www.anthropic.com/news/claude-haiku-4-5,2025-10-15 16:55:06,688,adocomplete
+45536694,Show HN: I invented a new generative model and got accepted to ICLR,https://discrete-distribution-networks.github.io/,2025-10-10 09:01:54,650,diyer22
+45583180,Beliefs that are true for regular software but false when applied to AI,https://boydkane.com/essays/boss,2025-10-14 18:26:00,510,beyarkay
+45568915,America is getting an AI gold rush instead of a factory boom,https://www.washingtonpost.com/business/2025/10/13/manufacturing-artificial-intelligence/,2025-10-13 14:48:47,480,voxleone
+45547344,Superpowers: How I'm using coding agents in October 2025,https://blog.fsck.com/2025/10/09/superpowers/,2025-10-11 07:29:23,427,Ch00k
+45553577,Meta Superintelligence Labs' first paper is about RAG,https://paddedinputs.substack.com/p/meta-superintelligences-surprising,2025-10-11 23:16:05,420,skadamat
+45590681,Bots are getting good at mimicking engagement,https://joindatacops.com/resources/how-73-of-your-e-commerce-visitors-could-be-fake,2025-10-15 11:11:41,386,simul007
+45551260,Anthropic's Prompt Engineering Tutorial (2024),https://github.com/anthropics/prompt-eng-interactive-tutorial,2025-10-11 18:06:40,385,cjbarber
+45577080,Why the push for Agentic when models can barely follow a simple instruction?,https://forum.cursor.com/t/why-the-push-for-agentic-when-models-can-barely-follow-a-single-simple-instruction/137154,2025-10-14 07:08:02,325,fork-bomber
+45581735,How AI hears accents: An audible visualization of accent clusters,https://accent-explorer.boldvoice.com/,2025-10-14 16:07:37,257,ilyausorov
+45570973,America's future could hinge on whether AI slightly disappoints,https://www.noahpinion.blog/p/americas-future-could-hinge-on-whether,2025-10-13 17:24:51,240,jxmorris12
+45553422,CamoLeak: Critical GitHub Copilot Vulnerability Leaks Private Source Code,https://www.legitsecurity.com/blog/camoleak-critical-github-copilot-vulnerability-leaks-private-source-code,2025-10-11 22:58:30,233,greyadept
+45561672,Emacs agent-shell (powered by ACP),https://xenodium.com/introducing-agent-shell,2025-10-12 20:37:16,232,Karrot_Kream
+45588283,"I am a programmer, not a rubber-stamp that approves Copilot generated code",https://prahladyeri.github.io/blog/2025/10/i-am-a-programmer.html,2025-10-15 05:09:44,231,pyeri
+45599727,"Writing an LLM from scratch, part 22 – training our LLM",https://www.gilesthomas.com/2025/10/llm-from-scratch-22-finally-training-our-llm,2025-10-15 23:42:12,227,gpjt
+45556474,AdapTive-LeArning Speculator System (ATLAS): Faster LLM inference,https://www.together.ai/blog/adaptive-learning-speculator-system-atlas,2025-10-12 08:37:01,198,alecco
+45581029,GPT-5o-mini hallucinates medical residency applicant grades,https://www.thalamusgme.com/blogs/cortex-core-clerkship-grades-and-transcript-normalization,2025-10-14 15:12:21,195,medicalthrow
+45583243,Intel Announces Inference-Optimized Xe3P Graphics Card with 160GB VRAM,https://www.phoronix.com/review/intel-crescent-island,2025-10-14 18:30:57,192,wrigby
+45597006,A Gemma model helped discover a new potential cancer therapy pathway,https://blog.google/technology/ai/google-gemma-ai-cancer-therapy-discovery/,2025-10-15 19:04:07,187,alexcos
+45588689,Just talk to it – A way of agentic engineering,https://steipete.me/posts/just-talk-to-it,2025-10-15 06:21:04,185,freediver
+45561700,Edge AI for Beginners,https://github.com/microsoft/edgeai-for-beginners,2025-10-12 20:41:01,183,bakigul
+45586776,"Nvidia DGX Spark: great hardware, early days for the ecosystem",https://simonwillison.net/2025/Oct/14/nvidia-dgx-spark/,2025-10-15 00:49:25,177,GavinAnderegg
+45601834,New coding models and integrations,https://ollama.com/blog/coding-models,2025-10-16 05:46:50,160,meetpateltech
+45558375,Show HN: AI toy I worked on is in stores,https://www.walmart.com/ip/SANTA-SMAGICAL-PHONE/16364964771,2025-10-12 14:15:21,155,Sean-Der
+45596602,Things I've learned in my 7 years implementing AI,https://www.jampa.dev/p/llms-and-the-lessons-we-still-havent,2025-10-15 18:27:35,145,jampa
+45543471,Show HN: Semantic search over the National Gallery of Art,https://nga.demo.mixedbread.com/,2025-10-10 20:33:25,144,breadislove
+45572478,LLMs are getting better at character-level text manipulation,https://blog.burkert.me/posts/llm_evolution_character_manipulation/,2025-10-13 19:39:14,138,curioussquirrel
+45591222,Show HN: Scriber Pro – Offline AI transcription for macOS,https://scriberpro.cc/hn/,2025-10-15 12:16:16,131,rezivor
+45559603,GitHub Copilot: Remote Code Execution via Prompt Injection (CVE-2025-53773),https://embracethered.com/blog/posts/2025/github-copilot-remote-code-execution-via-prompt-injection/,2025-10-12 16:46:11,127,kerng
+45596059,Recursive Language Models (RLMs),https://alexzhang13.github.io/blog/2025/rlm/,2025-10-15 17:43:27,118,talhof8
+45589327,"Europe's Digital Sovereignty Paradox – ""Chat Control"" Update",https://www.process-one.net/blog/chat-control-update-oct-2025/,2025-10-15 07:52:40,117,neustradamus
+45568955,AI and the Future of American Politics,https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html,2025-10-13 14:51:51,115,zdw
+45575127,NVIDIA DGX Spark In-Depth Review: A New Standard for Local AI Inference,https://lmsys.org/blog/2025-10-13-nvidia-dgx-spark/,2025-10-14 01:07:45,112,yvbbrjdr
+45567406,AI Is Too Big to Fail,https://sibylline.dev/articles/2025-10-12-ai-is-too-big-to-fail/,2025-10-13 12:03:51,90,raffael_de
+45553701,Paper2video: Automatic video generation from scientific papers,https://arxiv.org/abs/2510.05096,2025-10-11 23:32:25,90,jinqueeny
+45583574,Preparing for AI's economic impact: exploring policy responses,https://www.anthropic.com/research/economic-policy-responses,2025-10-14 19:06:27,74,grantpitt
+45600263,Who's Submitting AI-Tainted Filings in Court?,https://cyberlaw.stanford.edu/whos-submitting-ai-tainted-filings-in-court/,2025-10-16 00:50:56,71,cratermoon
+45559977,Ridley Scott's Prometheus and Alien: Covenant – Contemporary Horror of AI (2020),https://www.ejumpcut.org/archive/jc58.2018/AlpertAlienPrequels/index.html,2025-10-12 17:23:41,63,measurablefunc
+45534922,Open-Source Agentic AI,https://github.com/AFK-surf/open-agent,2025-10-10 02:30:58,63,Johnson8053
+45601230,TaxCalcBench: Evaluating Frontier Models on the Tax Calculation Task,https://arxiv.org/abs/2507.16126,2025-10-16 03:45:39,59,handfuloflight
+45571814,"Programming in Assembly Is Brutal, Beautiful, and Maybe Even a Path to Better AI",https://www.wired.com/story/programming-assembly-artificial-intelligence/,2025-10-13 18:37:04,56,fcpguru
+45602884,"Waymo is bringing autonomous, driverless ride-hailing to London in 2026",https://9to5google.com/2025/10/15/waymo-london-2026/,2025-10-16 08:37:13,54,pykello
+45605842,Tor browser removing various Firefox AI features,https://blog.torproject.org/new-alpha-release-tor-browser-150a4/,2025-10-16 14:33:10,52,HelloUsername
+45567996,OpenAI and Broadcom to deploy 10 GW of OpenAI-designed AI accelerators,https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/,2025-10-13 13:17:20,51,davidbarker
+45604451,A stateful browser agent using self-healing DOM maps,https://100x.bot/a/a-stateful-browser-agent-using-self-healing-dom-maps,2025-10-16 12:21:36,49,shardullavekar
+45605501,DoorDash and Waymo launch autonomous delivery service in Phoenix,https://about.doordash.com/en-us/news/waymo,2025-10-16 14:04:18,42,ChrisArchitect
+45555012,Coral Protocol: Open infrastructure connecting the internet of agents,https://arxiv.org/abs/2505.00749,2025-10-12 03:41:29,41,joj333
+45594741,AI workslop is driving me insane,https://www.cnbc.com/2025/09/23/ai-generated-workslop-is-destroying-productivity-and-teams-researchers-say.html,2025-10-15 16:11:39,40,birdculture
+45574705,StreamingVLM: Real-Time Understanding for Infinite Video Streams,https://arxiv.org/abs/2510.09608,2025-10-14 00:02:18,33,badmonster
+45584017,Show HN: Wispbit - Linter for AI coding agents,https://wispbit.com,2025-10-14 19:52:39,29,dearilos
+45579612,Show HN: Daily install trends of AI coding extensions in VS Code,https://bloomberry.com/coding-tools.html,2025-10-14 13:12:00,27,AznHisoka
+45604700,Launch HN: Inkeep (YC W23) – Open Source Agent Builder,https://github.com/inkeep/agents,2025-10-16 12:50:08,25,engomez
+45590019,Waymo's Robotaxis Are Coming to London,https://www.wired.com/story/waymos-robotaxis-are-coming-to-london/,2025-10-15 09:36:00,25,standardUser
+45590926,Nvidia sells tiny new computer that puts big AI on your desktop,https://arstechnica.com/ai/2025/10/nvidia-sells-tiny-new-computer-that-puts-big-ai-on-your-desktop/,2025-10-15 11:43:19,24,turbocon
+45579712,Self-improving LMs are becoming reality with MIT's updated SEAL technique,https://venturebeat.com/ai/self-improving-language-models-are-becoming-reality-with-mits-updated-seal,2025-10-14 13:21:29,24,simonpure
+45584228,The quality of AI code is low and the AIs themselves don't understand it,https://twitter.com/Jonathan_Blow/status/1977480106588410278,2025-10-14 20:13:58,22,redbell
+45576745,Gemini 3 Pro simulated macOS in a single HTML file in 1 prompt,https://twitter.com/chetaslua/status/1977866953705316571,2025-10-14 06:02:23,21,alexcos
+45600470,Coral NPU: A full-stack platform for Edge AI,https://research.google/blog/coral-npu-a-full-stack-platform-for-edge-ai/,2025-10-16 01:25:28,20,LER0ever
+45585528,MegaFold: An Open-Sourced AlphaFold-3 Training System,https://supercomputing-system-ai-lab.github.io/blogs/blog/megafold-an-open-sourced-alphafold-3-training-system/,2025-10-14 21:55:57,20,spikerheado
+45596470,OpenAI accused of using legal tactics to silence nonprofits,https://www.nbcnews.com/tech/tech-news/openai-chatgpt-accused-using-subpoenas-silence-nonprofits-rcna237348,2025-10-15 18:16:30,19,anigbrowl
+45596024,Show HN: Cmux – Coding Agent Multiplexer,https://github.com/coder/cmux,2025-10-15 17:40:26,18,ammario
+45583907,OpenAI #15: More on OpenAI's Paranoid Lawfare Against Advocates of SB 53,https://thezvi.substack.com/p/openai-15-more-on-openais-paranoid,2025-10-14 19:41:28,17,paulpauper
+45590894,"Show HN: Kexa.io – Open-Source IT Security, Compliance and AI-Powered",,2025-10-15 11:39:03,14,kexaproj
+45587166,Sexbots Are Coming to ChatGPT,,2025-10-15 01:45:22,14,nutanc
+45587328,ChatGPT will soon allow erotica for verified adults,https://www.bbc.com/news/articles/cpd2qv58yl5o,2025-10-15 02:12:05,13,andsoitis
+45593833,Walmart partners with OpenAI to let shoppers buy items through ChatGPT,https://ktla.com/news/consumer-business/walmart-partners-with-openai-to-let-shoppers-buy-items-through-chatgpt/,2025-10-15 15:12:04,12,Bender
+45585901,'Under tremendous pressure': Newsom vetoes long-awaited AI chatbot bill,https://www.sfgate.com/politics/article/newsom-vetoes-ai-chatbot-bill-21099045.php,2025-10-14 22:40:06,12,voxadam
+45597881,"Anthropic aims to nearly triple annualized revenue in 2026, sources say",https://www.reuters.com/business/retail-consumer/anthropic-aims-nearly-triple-annualized-revenue-2026-sources-say-2025-10-15/,2025-10-15 20:19:34,11,coloneltcb
+45566423,Beads – A memory upgrade for your coding agent,https://github.com/steveyegge/beads,2025-10-13 09:22:47,10,maciejgryka
+45587187,OpenAI's internal Slack messages could cost it billions in copyright suit,https://sherwood.news/power/openais-internal-slack-messages-could-cost-them-billions-in-copyright-suit/,2025-10-15 01:48:49,10,aleph_minus_one
+45588726,OpenAI has five years to turn $13B into $1T,https://techcrunch.com/2025/10/14/openai-has-five-years-to-turn-13-billion-into-1-trillion/,2025-10-15 06:25:16,9,jnord
+45581351,Ask HN: Blogs / Sites / Channels for agentic coding topics,,2025-10-14 15:39:28,9,d_sc
+45586093,Nvidia's 'Personal AI Supercomputer',https://www.theverge.com/news/798775/nvidia-spark-personal-ai-supercomputer,2025-10-14 23:09:42,9,kristianpaul
+45597524,He Lost His Mind Using ChatGPT. Then It Told Him to Contact Me [video],https://www.youtube.com/watch?v=zkGk_A4noxI,2025-10-15 19:49:30,8,dp-hackernews
+45601354,Ollama Rolls Out Experimental Vulkan Support for AMD and Intel,https://www.phoronix.com/news/ollama-Experimental-Vulkan,2025-10-16 04:06:47,7,geerlingguy
+45585315,AI models predict sepsis in children,https://news.northwestern.edu/stories/2025/10/ai-models-predict-sepsis-in-children-enable-preemptive-care,2025-10-14 21:37:04,7,gmays
+45596322,AI (based on Gemma) generated a novel hypothesis about cancer cellular behavior,https://twitter.com/sundarpichai/status/1978507110477332582,2025-10-15 18:03:43,7,namanbhalla
+45591139,"Valve Developer Gets Initial DLSS Support Working on FOSS Nvidia ""NVK"" Driver",https://www.phoronix.com/news/NVIDIA-DLSS-NVK-Experimental,2025-10-15 12:07:14,7,LorenDB
+45600753,"ChatGPT erotica coming soon with age verification, CEO says",https://arstechnica.com/ai/2025/10/chatgpt-will-soon-allow-erotic-chats-for-verified-adults-only/,2025-10-16 02:16:44,5,HypnoticOcelot
+45582638,Are Foundation Models Ready for Industrial Defect Recognition? A Reality Check,https://arxiv.org/abs/2509.20479,2025-10-14 17:29:12,5,PaulHoule
+45591531,Ohio Lawmaker Wants to Ban Marriage Between Humans and AI Chatbots,https://gizmodo.com/ohio-lawmaker-wants-to-ban-marriage-between-humans-and-ai-chatbots-2000672216,2025-10-15 12:42:24,5,rbanffy

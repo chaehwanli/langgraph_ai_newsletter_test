@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no" />
+    <title>주간 AI 뉴스레터</title>
+    <!--[if mso]>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+
+    <style>
+      /* 기본 리셋 */
+      html, body { margin:0; padding:0; height:100% }
+      body { width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; background:#f6f7fb; }
+      a { color:#2563eb; text-decoration:none }
+      img { border:0; outline:none; text-decoration:none; -ms-interpolation-mode:bicubic; display:block }
+      table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt }
+      .ExternalClass { width:100% }
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height:100% }
+
+      /* 컨테이너 */
+      .wrapper { width:100%; background:#f6f7fb; padding:24px 0 }
+      .container { width:100%; max-width:640px; margin:0 auto; background:#ffffff }
+
+      /* 헤더 */
+      .header { padding:24px 24px 0 24px; font-family:Segoe UI, Roboto, AppleSDGothicNeo, Noto Sans KR, Apple Color Emoji, Segoe UI Emoji, sans-serif }
+      .brand { font-size:22px; font-weight:700; color:#111827 }
+      .date { font-size:14px; color:#6b7280; padding-top:4px }
+
+      /* 히어로 */
+      .hero { padding:24px; }
+      .hero-title { font-size:28px; font-weight:800; color:#111827; line-height:1.25 }
+      .hero-sub { font-size:15px; color:#374151; margin-top:8px; line-height:1.6 }
+
+      /* 카드 */
+      .card { border:1px solid #e5e7eb; border-radius:8px; overflow:hidden; margin:16px 24px; }
+      .card h3 { font-size:18px; margin:0; padding:16px 16px 8px 16px; color:#111827 }
+      .card p { font-size:15px; margin:0; padding:0 16px 16px 16px; color:#374151; line-height:1.6 }
+      .btn { display:inline-block; background:#2563eb; color:#ffffff; padding:10px 14px; border-radius:6px; font-size:15px; }
+
+      /* 섹션 헤더 */
+      .section-rule { border-top:2px solid #111827; margin:24px 24px 8px 24px }
+      .section-title { font-size:20px; font-weight:800; color:#111827; padding:0 24px; margin:0 0 8px 0 }
+
+      /* 푸터 */
+      .footer { padding:24px; text-align:center; font-size:13px; color:#6b7280 }
+      .social a { margin:0 6px }
+
+      /* 모바일 */
+      @media only screen and (max-width: 600px) {
+        .container { width:100% !important }
+        .card { margin:12px 12px }
+        .hero-title { font-size:22px }
+      }
+    </style>
+  </head>
+  <body>
+    <center class="wrapper" role="article" aria-roledescription="email" lang="ko">
+      <table role="presentation" class="container">
+        <tr>
+          <td>
+            <!-- 헤더 -->
+            <div class="header">
+              <div class="brand">AI Weekly Newsletter</div>
+              <div class="date">{{NEWSLETTER_DATE}}</div>
+            </div>
+
+            <!-- 히어로 -->
+            <div class="hero">
+              <div class="hero-title">이번 주 AI 하이라이트</div>
+              <div class="hero-sub">최근 일주일간의 가장 중요한 모델 업데이트, 연구 동향, 제품 출시를 큐레이션했습니다.</div>
+            </div>
+
+            <!-- Hacker News TOP 5 (AI) -->
+            <div class="section-rule"></div>
+            <div class="section-title">Hacker News TOP 5 (AI)</div>
+            <div class="card">
+              <div style="padding:0 16px 16px 16px">
+                <table role="presentation" width="100%" style="border-collapse:separate; border-spacing:0 10px">
+                  {{HN_ROWS_HTML}}
+                </table>
+              </div>
+            </div>
+
+            <!-- OpenAI Cookbook -->
+            <div class="section-rule"></div>
+            <div class="section-title">OpenAI Cookbook</div>
+            {{COOKBOOK_HTML}}
+
+            
+            <!-- 푸터 -->
+            <div class="footer">
+              이 메일은 구독하신 분들께만 발송됩니다. 수신 거부는 <a href="{{UNSUBSCRIBE_URL}}">여기</a>를 클릭하세요.<br/>
+              © {{YEAR}} AISchool. All rights reserved.
+              <div class="social" style="margin-top:8px">
+                <a href="{{TWITTER_URL}}">Twitter</a> ·
+                <a href="{{LINKEDIN_URL}}">LinkedIn</a> ·
+                <a href="{{WEBSITE_URL}}">Website</a>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+  </html>
+
+
